@@ -68,13 +68,3 @@ src/
 
 Courses, instructors, ratings and student counts are sample data stored in `src/data/courses.js`. `src/api.js` returns them after a short delay to show loading states, so it can be swapped for a real API later.
 
-## Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: LearnSphere"
-git branch -M main
-git remote add origin https://github.com/<your-username>/learnsphere.git
-git push -u origin main
-```
